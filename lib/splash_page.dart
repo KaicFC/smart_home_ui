@@ -25,9 +25,13 @@ class _SplashPageState extends State<SplashPage> {
                 decoration: BoxDecoration(
                   color: Color.fromARGB(255, 106, 220, 255),
                   borderRadius: BorderRadius.circular(20),
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/home.jpg'),
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
-              SizedBox(height: 30),
+              SizedBox(height: 60),
               const Text(
                 'Sweet & Smart Home',
                 style: TextStyle(
@@ -35,7 +39,7 @@ class _SplashPageState extends State<SplashPage> {
                   color: Colors.white,
                 ),
               ),
-              SizedBox(height: 30),
+              SizedBox(height: 15),
               const Padding(
                 padding: EdgeInsets.symmetric(horizontal: 50),
                 child: Text(
@@ -47,7 +51,7 @@ class _SplashPageState extends State<SplashPage> {
                   ),
                 ),
               ),
-              SizedBox(height: 40),
+              SizedBox(height: 60),
               InkWell(
                 splashColor: Colors.red,
                 onTap: () => Navigator.push(
@@ -57,7 +61,7 @@ class _SplashPageState extends State<SplashPage> {
                   ),
                 ),
                 child: Container(
-                  height: 75,
+                  height: 70,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     color: Color.fromARGB(255, 106, 220, 255),
@@ -134,7 +138,7 @@ class _HomePageState extends State<HomePage> {
               Text(
                 'Lets manage your smart home',
                 style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 18,
                   color: Colors.white,
                 ),
               ),
@@ -143,6 +147,12 @@ class _HomePageState extends State<HomePage> {
           CircleAvatar(
             backgroundColor: Color.fromARGB(255, 106, 220, 255),
             radius: 30,
+            child: Center(
+                child: Icon(
+              Icons.person,
+              color: Colors.black,
+              size: 35,
+            )),
           ),
         ],
       ),

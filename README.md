@@ -1,16 +1,75 @@
-# smart_home_1
+# UI Smart Home
 
-A new Flutter project.
+### Demonstração
 
-## Getting Started
+<img src="/screenshot/splash.png" heigth="400" width="300">
+<img src="/screenshot/home.png" heigth="400" width="300">
 
-This project is a starting point for a Flutter application.
+### 📋 Pré-requisitos
 
-A few resources to get you started if this is your first Flutter project:
+O que você precisa para instalar o software e como rodá-lo?
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Verifique se o Flutter está instalado com a versão estável mais recente e com todas as ferramentas necessárias:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Abra o terminal cole o comando:
+```
+flutter doctor
+```
+
+Caso não possua o Flutter instalado ou queira atualizar para a versão estável mais recente, basta seguir os passos da página oficial:
+
+- [Instalando o Flutter](https://docs.flutter.dev/get-started/install)
+
+
+#### 📋 Dicas
+- Recomendo rodar o aplicativo no emulador **Android Pixel 5** para ter uma experiência ainda melhor.
+
+
+### 🔧 Executando o Projeto
+
+Abra o terminal e clone este repositório:
+
+```
+git clone https://github.com/KaicFC/smart_home_ui
+```
+
+Entre na pasta com o comando:
+
+```
+cd smart_home_ui
+```
+
+Adicione e atualize todas as dependências:
+
+```
+flutter pub get
+```
+
+Execute o projeto:
+
+```
+flutter run
+```
+
+Divirta-se!
+
+
+## 🛠️ Construído com
+
+* [Dart](https://dart.dev) - Linguagem de Programação.
+* [Flutter](https://flutter.dev) - Framework de Desenvolvimento.
+
+
+## ✒️ Autor
+
+* **Kaic Fernandes Carvalho**
+  [Github](https://github.com/KaicFC) - [Linkedin](https://www.linkedin.com/in/kaic-carvalho/)
+
+
+## 🎁 Gratidão!
+
+* Espero que tenha aproveitado este projeto.
+* Obrigado pela visita.
+
+---
+⌨ Desenvolvido com ❤️ por [Kaic Carvalho](https://github.com/KaicFC)
